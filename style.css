@@ -78,7 +78,7 @@ img {
 
 
 /* BLOCCO LEZINI */
-@media all and (min-width:0) and (max-width:420px){
+@media all  and (max-width:420px){
     #lezioni{
       background-color: rgb(242, 242, 205);
     }
@@ -105,7 +105,7 @@ img {
 
 
 /* BLOCCO STEPS */
-@media all and (min-width:0) and (max-width:420px){
+@media all  and (max-width:420px){
   .row{
     width: auto;
   }
@@ -121,7 +121,7 @@ img {
 
 
 /* BLOCCO WHY */
-@media all and (min-width:0) and (max-width:420px) {
+@media all and  (max-width:420px) {
       #why{
         background-color: rgb(242, 242, 205);
       }
