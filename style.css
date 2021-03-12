@@ -75,16 +75,75 @@ img {
 
 
 /* MEDIA QUERY */
-@media (min-width:0) and (max-width:420px){
+
+
+/* BLOCCO LEZINI */
+@media all and (min-width:0) and (max-width:420px){
     #lezioni{
       background-color: rgb(242, 242, 205);
     }
 
+    .row{
+     margin-top: 0;
+    }
+
+
     #lezioni .row>.left,
     #lezioni .row>.right{
       float: none;
-      width: 100%;
-      display: inline-block;
       text-align: center;
+      width: 100%;
+    }
+
+    body{
+      margin: 0;
+    }
+
+   
+}
+
+
+
+/* BLOCCO STEPS */
+@media all and (min-width:0) and (max-width:420px){
+  .row{
+    width: auto;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width:100%;
+    margin: 20px auto;
+  }
+}
+
+
+/* BLOCCO WHY */
+@media all and (min-width:0) and (max-width:420px) {
+      #why{
+        background-color: rgb(242, 242, 205);
+      }
+
+      #why h1{
+        padding-top: 20px;
+      }
+
+      #why .row>.first,
+      #why .row>.second,
+      #why .row>.third {
+        margin-top: 10px;
+      }
+
+      #why .row>.first hr,
+      #why .row>.second hr {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+    #why .row img{
+      margin-bottom: 0;
+      margin-top: 5px; 
     }
 }
